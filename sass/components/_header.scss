@@ -1,0 +1,21 @@
+@import "../abstracts/_variables";
+@import "../abstracts/_fonts";
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1.hidden {
+  display: none;
+  font-family: $heading-font-family;
+}
+
+h2 {
+  color: $primary-color;
+  font-size: 2.8rem;
+  font-family: $heading-font-family;
+  text-align: center;
+}
